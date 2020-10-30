@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-30T15:30:14 CET" name="Default suite" finished-at="2020-10-30T15:30:42 CET" duration-ms="28952">
+    <groups>
+    </groups>
+    <test started-at="2020-10-30T15:30:14 CET" name="Default test" finished-at="2020-10-30T15:30:42 CET" duration-ms="28952">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.LoginTest@3745e5c6]" started-at="2020-10-30T15:30:14 CET" name="startDriver" finished-at="2020-10-30T15:30:21 CET" duration-ms="7219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="UserCanLoginWithValidCredentials()[pri:0, instance:tests.LoginTest@3745e5c6]" started-at="2020-10-30T15:30:21 CET" name="UserCanLoginWithValidCredentials" finished-at="2020-10-30T15:30:25 CET" duration-ms="4575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanLoginWithValidCredentials -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3745e5c6]" started-at="2020-10-30T15:30:25 CET" name="screenshotOnFailure" finished-at="2020-10-30T15:30:25 CET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanLoginWithValidCredentials status=SUCCESS method=LoginTest.UserCanLoginWithValidCredentials()[pri:0, instance:tests.LoginTest@3745e5c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.LoginTest@3745e5c6]" started-at="2020-10-30T15:30:25 CET" name="stopDriver" finished-at="2020-10-30T15:30:26 CET" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.LoginTest@3745e5c6]" started-at="2020-10-30T15:30:26 CET" name="startDriver" finished-at="2020-10-30T15:30:33 CET" duration-ms="7036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="UserCanNotLoginWithInvalidCredentials()[pri:0, instance:tests.LoginTest@3745e5c6]" started-at="2020-10-30T15:30:33 CET" name="UserCanNotLoginWithInvalidCredentials" finished-at="2020-10-30T15:30:34 CET" duration-ms="1474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanNotLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3745e5c6]" started-at="2020-10-30T15:30:34 CET" name="screenshotOnFailure" finished-at="2020-10-30T15:30:34 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanNotLoginWithInvalidCredentials status=SUCCESS method=LoginTest.UserCanNotLoginWithInvalidCredentials()[pri:0, instance:tests.LoginTest@3745e5c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.LoginTest@3745e5c6]" started-at="2020-10-30T15:30:34 CET" name="stopDriver" finished-at="2020-10-30T15:30:34 CET" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.LoginTest@3745e5c6]" started-at="2020-10-30T15:30:34 CET" name="startDriver" finished-at="2020-10-30T15:30:39 CET" duration-ms="4912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="UserIsAbleToRestHisPassword()[pri:0, instance:tests.LoginTest@3745e5c6]" started-at="2020-10-30T15:30:39 CET" name="UserIsAbleToRestHisPassword" finished-at="2020-10-30T15:30:42 CET" duration-ms="3074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserIsAbleToRestHisPassword -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3745e5c6]" started-at="2020-10-30T15:30:42 CET" name="screenshotOnFailure" finished-at="2020-10-30T15:30:42 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserIsAbleToRestHisPassword status=SUCCESS method=LoginTest.UserIsAbleToRestHisPassword()[pri:0, instance:tests.LoginTest@3745e5c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.LoginTest@3745e5c6]" started-at="2020-10-30T15:30:42 CET" name="stopDriver" finished-at="2020-10-30T15:30:42 CET" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
