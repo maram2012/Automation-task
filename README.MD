@@ -10,3 +10,9 @@ credentials.
 
 3- As a user, I would like to be able to reset my password if I forget my
 credentials.
+
+To run the script, open the project and click right on the tests Package  and select run as
+testng suite.
+
+If you need to check the test report check test-output folder open “index.html” with
+web browser, you will find testing report is generated.
